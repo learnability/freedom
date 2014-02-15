@@ -7,16 +7,15 @@ float add(float,float);
 float sub(float,float);
 float mul(float,float);
 float div(float,float);
-
 void main()//main function
 {
 menu();
 }
 void menu(){//function menu
 	float a,b,r;
-	int ch;
+	int ch,m,n,rn;
 	do{
-		printf("\n1.add\n2.sub\n3.mul\n4.div\n5.exit\nenter ur choice::");
+		printf("\n1.add\n2.sub\n3.mul\n4.div\n5.exit\n6.log\n7.pow\n8.mod\nenter ur choice::");
 		scanf("%d",&ch);
 		if(ch!=5){
 			printf("\nenter numbers:\n");
@@ -36,7 +35,21 @@ void menu(){//function menu
 				printf("\nResult=%f",r);
 				break;
 			case 5:break;
+			case 6:printf("\nenter num:")
+				scanf("%d",&n)
+				rn=log(n);
+				printf("\nresult=%d",rn);
+				break;
+			case 7:printf("\nenter:")
+				scanf("%d%d",&m,&n)
+				rn=pow(m,n);
+				printf("\nresult=%d",rn)
 				default :break;
+			case 8:printf("\nenter");
+				scanf("%d%d",&m,&n);
+				rn=mod(m,n);
+				printf("\nResult=%d",rn);
+				break;
 		}
 	}while(ch!=5);
 }
