@@ -35,15 +35,15 @@ void menu(){//function menu
 				printf("\nResult=%f",r);
 				break;
 			case 5:break;
-			case 6:printf("\nenter num:")
-				scanf("%d",&n)
+			case 6:printf("\nenter num:");
+				scanf("%d",&n);
 				rn=log(n);
 				printf("\nresult=%d",rn);
 				break;
-			case 7:printf("\nenter:")
-				scanf("%d%d",&m,&n)
+			case 7:printf("\nenter:");
+				scanf("%d%d",&m,&n);
 				rn=pow(m,n);
-				printf("\nresult=%d",rn)
+				printf("\nresult=%d",rn);
 				default :break;
 			case 8:printf("\nenter");
 				scanf("%d%d",&m,&n);
