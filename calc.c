@@ -3,6 +3,8 @@
 
 #include<stdio.h>
 void menu();
+int mod(int,int);
+
 float add(float,float);
 float sub(float,float);
 float mul(float,float);
