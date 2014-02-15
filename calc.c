@@ -5,7 +5,8 @@ float sub(float,float);
 float mul(float,float);
 float div(float,float);
 
-void main(){
+void main()
+{
 menu();
 }
 void menu(){
