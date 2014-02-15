@@ -79,6 +79,11 @@ int mod(int a,int b)
 int logg(int a){
 return 0;
 }
-int power(int a,int b){
-return 0;
+int power(int a, int n)// Takes only positive integers as arguments
+{
+	int power=1;
+	for( ; n>0; n--)//Multiply value of a 'n' times
+	{
+		power *= a;
+	}
 }
