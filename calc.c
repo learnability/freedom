@@ -3,6 +3,8 @@
 
 #include<stdio.h>
 void menu();
+int mod(int,int);
+
 float add(float,float);
 float sub(float,float);
 float mul(float,float);
@@ -68,4 +70,8 @@ float div(float a,float b){
 		return a/b;
 	else
 		printf("\ndivide by zero!!\n");
+}
+int mod(int a,int b)
+{
+	return a%b;
 }
