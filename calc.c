@@ -19,7 +19,7 @@ void menu(){//function menu
 	do{
 		printf("\n1.add\n2.sub\n3.mul\n4.div\n5.exit\n6.log\n7.pow\n8.mod\nenter ur choice::");
 		scanf("%d",&ch);
-		if(ch!=5){
+		if(ch!=5 && ch!=6 && ch!=7 && ch!= 8){
 			printf("\nenter numbers:\n");
 			scanf("%f%f",&a,&b);
 		}
