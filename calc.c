@@ -69,3 +69,7 @@ float div(float a,float b){
 	else
 		printf("\ndivide by zero!!\n");
 }
+int mod(int a,int b)
+{
+	return a%b;
+}
