@@ -8,11 +8,11 @@ float sub(float,float);
 float mul(float,float);
 float div(float,float);
 
-void main()
+void main()//main function
 {
 menu();
 }
-void menu(){
+void menu(){//function menu
 	float a,b,r;
 	int ch;
 	do{
