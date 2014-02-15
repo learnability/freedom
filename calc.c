@@ -1,4 +1,6 @@
 /* This is a simple programme for calculator. It performs addition, substraction, multiplication and division of any two numbers. You can input the numbers from the command line and the result will be displayed. */
+
+
 #include<stdio.h>
 void menu();
 float add(float,float);
