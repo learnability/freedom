@@ -1,6 +1,4 @@
 /* This is a simple programme for calculator. It performs addition, substraction, multiplication and division of any two numbers. You can input the numbers from the command line and the result will be displayed. */
-
-
 #include<stdio.h>
 void menu();
 int mod(int,int);
@@ -9,6 +7,8 @@ float add(float,float);
 float sub(float,float);
 float mul(float,float);
 float div(float,float);
+int logg(int);
+int power(int,int);
 void main()//main function
 {
 menu();
@@ -39,12 +39,12 @@ void menu(){//function menu
 			case 5:break;
 			case 6:printf("\nenter num:");
 				scanf("%d",&n);
-				rn=log(n);
+				rn=logg(n);
 				printf("\nresult=%d",rn);
 				break;
 			case 7:printf("\nenter:");
 				scanf("%d%d",&m,&n);
-				rn=pow(m,n);
+				rn=power(m,n);
 				printf("\nresult=%d",rn);
 				default :break;
 			case 8:printf("\nenter");
@@ -74,4 +74,11 @@ float div(float a,float b){
 int mod(int a,int b)
 {
 	return a%b;
+}
+
+int logg(int a){
+return 0;
+}
+int power(int a,int b){
+return 0;
 }
